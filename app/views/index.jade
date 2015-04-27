@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        title "Chat Demo"
+        link(rel="stylesheet", href="styles/main.css")
+    body
+        ul.pages
+            li.chat.page
+                .chatArea
+                    ul.messages
+                input(placeholder="Type here…").inputMessage
+            li.login.page
+                .form
+                    h3.title "What's your nickname?"
+                    input(type="text", maxlength=14).usernameInput
+        script(src="https://cdn.socket.io/socket.io-1.2.0.js")
+        script(src="scripts/app.js")
