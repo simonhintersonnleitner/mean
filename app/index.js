@@ -27,7 +27,8 @@ app.use(function(req, res) {
   res
     .status(404)
     .json({
-      status: 'Document does not exist'
+      status: 'Document does not exist',
+      url: req.url
     });
 });
 
