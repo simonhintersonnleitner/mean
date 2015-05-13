@@ -2,7 +2,7 @@
   "name": "MEAN",
   "version": "0.0.1",
   "description": "A basic MEAN setup",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "npm test",
     "clean": "rm -rf ./dist",
