@@ -14,7 +14,7 @@ app.disable('x-powered-by');
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
-app.use(express.static('/mean',__dirname + '/public'));
+app.use(express.static('/mean/',__dirname + '/public'));
 app.use(morgan('dev'));
 app.use(compression());
 
