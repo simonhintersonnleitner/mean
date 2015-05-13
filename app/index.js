@@ -18,7 +18,7 @@ app.use(express.static('/mean',__dirname + '/public'));
 app.use(morgan('dev'));
 app.use(compression());
 
-app.get('/mean', function(req, res) {
+app.get('/', function(req, res) {
   res.render('index');
 });
 
